@@ -1,0 +1,79 @@
+name: TeletypeSDKExample
+options:
+  bundleIdPrefix: app.teletype
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  defaultConfig: Debug
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    SUPPORTS_MACCATALYST: false
+packages:
+  TeletypeSDK:
+    path: ..
+targets:
+  TeletypeSDKExample:
+    type: application
+    platform: iOS
+    sources:
+      - path: TeletypeSDKExample
+    resources:
+      - path: TeletypeSDKExample/Assets.xcassets
+    dependencies:
+      - package: TeletypeSDK
+        product: TeletypeSDK
+    info:
+      path: TeletypeSDKExample/Info.plist
+      properties:
+        CFBundleDisplayName: Teletype SDK
+        CFBundleName: TeletypeSDKExample
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        CFBundleLocalizations:
+          - en
+          - ru
+        NSPhotoLibraryAddUsageDescription: Save chat attachments to your photo library
+        NSPhotoLibraryUsageDescription: Attach photos from your library to the chat
+        UIFileSharingEnabled: false
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.teletype.sdkexample
+        PRODUCT_NAME: TeletypeSDKExample
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        INFOPLIST_KEY_CFBundleDisplayName: Teletype SDK
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_EMIT_LOC_STRINGS: YES
+        GENERATE_INFOPLIST_FILE: false
+  TeletypeSDKExampleUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - TeletypeSDKExampleUITests
+    dependencies:
+      - target: TeletypeSDKExample
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.teletype.sdkexample.uitests
+        TEST_TARGET_NAME: TeletypeSDKExample
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        GENERATE_INFOPLIST_FILE: true
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  TeletypeSDKExample:
+    build:
+      targets:
+        TeletypeSDKExample: all
+        TeletypeSDKExampleUITests: [test]
+    test:
+      targets:
+        - TeletypeSDKExampleUITests

@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A97667D65436CC6558618AE /* TeletypeSDKExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A13862BA721D54ACDD813F2 /* TeletypeSDKExampleUITests.swift */; };
+		2672FDC61B8E024161AE44C9 /* UITestMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D16CF2F9B6B2A2C201C0C /* UITestMedia.swift */; };
+		2CC58B7C305C195AD07C735C /* TeletypeSDKExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF87AF06389E5CFB183426 /* TeletypeSDKExampleApp.swift */; };
+		4817552A95767F69AF369A25 /* TeletypeSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 966FE9C3E5D6C2ED5C885485 /* TeletypeSDK */; };
+		7DDCBC3D60889C1EAABCD96D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B4C2AE5F6E323896C5069 /* RootView.swift */; };
+		9DB2859CC744CACB30D5947D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD01E43A289C17BBF315974F /* Assets.xcassets */; };
+		CB668B4084CF25F653E3F349 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8326042E4FA43D075A1D3D /* Localization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E593165549AF4AA6769D6A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629A954D672AFDFE17BE9917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 135B723562333CD14BBDE5CE;
+			remoteInfo = TeletypeSDKExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9F88C6E0E0D05247A39723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20CC84E2CEEA2456AD02698C /* TeletypeSDKExampleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TeletypeSDKExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8326042E4FA43D075A1D3D /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		4EBF87AF06389E5CFB183426 /* TeletypeSDKExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeletypeSDKExampleApp.swift; sourceTree = "<group>"; };
+		6C4D16CF2F9B6B2A2C201C0C /* UITestMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestMedia.swift; sourceTree = "<group>"; };
+		7B843619E4F3D9F5CDF78CAA /* teletype-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "teletype-sdk-ios"; path = ..; sourceTree = SOURCE_ROOT; };
+		8A13862BA721D54ACDD813F2 /* TeletypeSDKExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeletypeSDKExampleUITests.swift; sourceTree = "<group>"; };
+		A6E7AAB65AE4992C3C3F577C /* TeletypeSDKExample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TeletypeSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95B4C2AE5F6E323896C5069 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		DD01E43A289C17BBF315974F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8425DA032325509C702486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4817552A95767F69AF369A25 /* TeletypeSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C74DD8F04330389C1CA8FF /* TeletypeSDKExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A13862BA721D54ACDD813F2 /* TeletypeSDKExampleUITests.swift */,
+			);
+			path = TeletypeSDKExampleUITests;
+			sourceTree = "<group>";
+		};
+		169C07DD591B2366FE7CF3F7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7B843619E4F3D9F5CDF78CAA /* teletype-sdk-ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B3C4A0CF65B8801DBB95C8C7 /* TeletypeSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				DD01E43A289C17BBF315974F /* Assets.xcassets */,
+				1F9F88C6E0E0D05247A39723 /* Info.plist */,
+				3F8326042E4FA43D075A1D3D /* Localization.swift */,
+				C95B4C2AE5F6E323896C5069 /* RootView.swift */,
+				4EBF87AF06389E5CFB183426 /* TeletypeSDKExampleApp.swift */,
+				6C4D16CF2F9B6B2A2C201C0C /* UITestMedia.swift */,
+			);
+			path = TeletypeSDKExample;
+			sourceTree = "<group>";
+		};
+		EC109E97C7A99D3B46A87DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E7AAB65AE4992C3C3F577C /* TeletypeSDKExample.app */,
+				20CC84E2CEEA2456AD02698C /* TeletypeSDKExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEECE6388509AE713C9306D = {
+			isa = PBXGroup;
+			children = (
+				169C07DD591B2366FE7CF3F7 /* Packages */,
+				B3C4A0CF65B8801DBB95C8C7 /* TeletypeSDKExample */,
+				14C74DD8F04330389C1CA8FF /* TeletypeSDKExampleUITests */,
+				EC109E97C7A99D3B46A87DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		135B723562333CD14BBDE5CE /* TeletypeSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B5B634B063FA1BE2AA1C6C /* Build configuration list for PBXNativeTarget "TeletypeSDKExample" */;
+			buildPhases = (
+				5D76618884F3A50D127B7316 /* Sources */,
+				56CBB5DCCA0A96E2CE630E39 /* Resources */,
+				4B8425DA032325509C702486 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeletypeSDKExample;
+			packageProductDependencies = (
+				966FE9C3E5D6C2ED5C885485 /* TeletypeSDK */,
+			);
+			productName = TeletypeSDKExample;
+			productReference = A6E7AAB65AE4992C3C3F577C /* TeletypeSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178E2D226B1084F5227EB809 /* TeletypeSDKExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E861949432E0DE10A5B56 /* Build configuration list for PBXNativeTarget "TeletypeSDKExampleUITests" */;
+			buildPhases = (
+				059B8E34BAD3F75E69B78094 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CDDD89D0301AB02CC2073D /* PBXTargetDependency */,
+			);
+			name = TeletypeSDKExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = TeletypeSDKExampleUITests;
+			productReference = 20CC84E2CEEA2456AD02698C /* TeletypeSDKExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629A954D672AFDFE17BE9917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					135B723562333CD14BBDE5CE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					178E2D226B1084F5227EB809 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 135B723562333CD14BBDE5CE;
+					};
+				};
+			};
+			buildConfigurationList = B72D2A2BB934299EAC0EE89B /* Build configuration list for PBXProject "TeletypeSDKExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EFEECE6388509AE713C9306D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0A972F9758CC9F146309BAD8 /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC109E97C7A99D3B46A87DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				135B723562333CD14BBDE5CE /* TeletypeSDKExample */,
+				178E2D226B1084F5227EB809 /* TeletypeSDKExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CBB5DCCA0A96E2CE630E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB2859CC744CACB30D5947D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059B8E34BAD3F75E69B78094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A97667D65436CC6558618AE /* TeletypeSDKExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D76618884F3A50D127B7316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB668B4084CF25F653E3F349 /* Localization.swift in Sources */,
+				7DDCBC3D60889C1EAABCD96D /* RootView.swift in Sources */,
+				2CC58B7C305C195AD07C735C /* TeletypeSDKExampleApp.swift in Sources */,
+				2672FDC61B8E024161AE44C9 /* UITestMedia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CDDD89D0301AB02CC2073D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 135B723562333CD14BBDE5CE /* TeletypeSDKExample */;
+			targetProxy = E593165549AF4AA6769D6A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1529BD53A86BB4B17E9BA5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.teletype.sdkexample.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeletypeSDKExample;
+			};
+			name = Debug;
+		};
+		41420B67BB0379E80AC6792F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D63023BDA7EE3B97364B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC94C99DED26C11F30ACEBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TeletypeSDKExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Teletype SDK";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.teletype.sdkexample;
+				PRODUCT_NAME = TeletypeSDKExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D4A9E9C638B0CC83D84EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.teletype.sdkexample.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeletypeSDKExample;
+			};
+			name = Release;
+		};
+		FBD063CFFA54E0332EB9AE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TeletypeSDKExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Teletype SDK";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.teletype.sdkexample;
+				PRODUCT_NAME = TeletypeSDKExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B5B634B063FA1BE2AA1C6C /* Build configuration list for PBXNativeTarget "TeletypeSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC94C99DED26C11F30ACEBBF /* Debug */,
+				FBD063CFFA54E0332EB9AE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B72D2A2BB934299EAC0EE89B /* Build configuration list for PBXProject "TeletypeSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41420B67BB0379E80AC6792F /* Debug */,
+				99D63023BDA7EE3B97364B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA1E861949432E0DE10A5B56 /* Build configuration list for PBXNativeTarget "TeletypeSDKExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1529BD53A86BB4B17E9BA5B7 /* Debug */,
+				F7D4A9E9C638B0CC83D84EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0A972F9758CC9F146309BAD8 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		966FE9C3E5D6C2ED5C885485 /* TeletypeSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TeletypeSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 629A954D672AFDFE17BE9917 /* Project object */;
+}
